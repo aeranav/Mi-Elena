@@ -97,7 +97,6 @@
             max-width: 1160px;
             text-align: center;
             background: #ffffff;
-            color: black;
             text-align: left;
             box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
             z-index: 1;
@@ -261,17 +260,14 @@
     </nav>
 </div>
 
-
-
 <!-- Facilities Content -->
 <div class="facilities-content">
 
     <a href="facilities.php" class="top-left-button">Facilities</a>
-
-    <h1>M1</h1>
+    <h1>M2</h1>
 
     <!-- Rates Section-->
-    <p>Private Resort 1 Rates</p>
+    <p>Private Resort 2 Rates</p>
     <div class="rates-section">
         
         <table class="rates-table">
@@ -284,10 +280,10 @@
                 <th>Extra Pax</th>
             </tr>
             <tr>
-                <td>25 pax</td>
-                <td>₱8,000</td>
-                <td>₱9,000</td>
-                <td>₱16,000</td>
+                <td>30 pax</td>
+                <td>₱10,000</td>
+                <td>₱12,000</td>
+                <td>₱20,000</td>
                 <td></td>
                 <td>₱100/pax</td>
             </tr>
@@ -318,28 +314,28 @@
 
         <!-- Facility Details: Common Area -->
         <div class="facility-details">
-            <img src="pics/m1commonarea.jpg" alt="Common Area">
+            <img src="pics/m2commonarea.png" alt="Common Area">
             <div>
                 <h2 style = "margin-top: 40px;">Common Area</h2>
                 <ul>
                     <li>FREE WiFi</li>
                     <li>Unlimited use of Videoke (Strictly No changing of volumes.)</li>
-                    <li>4 Tables and 25 chairs</li>
-                    <li>Mini Kubo (can fit 6-10 pax)</li>
-                    <li style = "line-height:25px;">No Corkage Fee: Foods, Drinks, Liquors (Except Catering P2,000/40pax)</li>
+                    <li>2 Long Tables and 30 chairs</li>
+                    <li>Poolside Area (can fit up to 12 pax)</li>
+                    <li style = "line-height:25px;">No Corkage Fee: Foods, Drinks, Liquors (Except Catering P2,500/50pax)</li>
                 </ul>
             </div>
         </div>
 
         <!-- Facility Details: Swimming Pool -->
         <div class="facility-details">
-            <img src="pics/m1pool.jpg" alt="Swimming Pool">
+            <img src="pics/m2pool.png" alt="Swimming Pool">
             <div>
                 <h2>Swimming Pool</h2>
                 <ul>
-                    <li>3ft to 5ft depth (Sloped layout)</li>
-                    <li>Size: 5x7 sqm</li>
-                    <li>With lights for night swimming</li>
+                    <li>5 ft depth</li>
+                    <li>Kiddie Pool: 3 ft depth</li>
+                    <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
 
@@ -349,12 +345,12 @@
 
         <!-- Facility Details: Bathrooms -->
         <div class="facility-details">
-            <img src="pics/m1bathroom.jpg" alt="Bathrooms">
+            <img src="pics/m2bathroom.png" alt="Bathrooms">
             <div>
                 <h2>Bathrooms</h2>
                 <ul>
                     <li>3 Bathrooms (1 bathroom each for Room 1 and Room 2)</li>
-                    <li>1 bathroom with shower (poolside)</li>
+                    <li>1 bathroom and Shower Area (poolside)</li>
                     <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
@@ -365,13 +361,13 @@
 
         <!-- Facility Details: Rooms -->
         <div class="facility-details">
-            <img src="pics/m1room.jpg" alt="Rooms">
+            <img src="pics/m2room.png" alt="Rooms">
             <div>
                 <h2>Rooms</h2>
                 <ul>
-                    <li>Room 1: 4 double-sized beds (2 loft type and 1 double deck)</li>
-                    <li>Room 2: 3 beds (1 bed and 1 double deck)</li>
-                    <li>All rooms are air-conditioned with private bathrooms</li>
+                    <li>Room 1: 9 double-sized beds (5 beds and 2 double deck)</li>
+                    <li>Room 2: 2 beds (Fan only with bathroom)</li>
+                    <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
                     <li style="visibility: hidden;">•</li>
 
@@ -381,16 +377,16 @@
 
         <!-- Facility Details: Kitchen -->
         <div class="facility-details">
-            <img src="pics/m1kitchen.jpg" alt="Kitchen">
+            <img src="pics/m2kitchen.png" alt="Kitchen">
             <div>
                 <h2>Kitchen</h2>
                 <ul>
                     <li>Bring your own utensils</li>
                     <li>Water dispenser available (Hot & Cold)</li>
                     <li>Free use of refrigerator</li>
+                    <li>Free use of Griller (Ihawan).</li>
                     <li>Microwave & gas stove</li>
-                    <li style="visibility: hidden;">•</li>
-                    <li style="visibility: hidden;">•</li>
+                    
 
 
                 </ul>

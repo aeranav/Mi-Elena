@@ -201,7 +201,14 @@
         <a href="landing.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
         <a href="facilities.php">FACILITIES</a>
-        <a href="#">BOOK NOW</a>
+        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+            <a href="booknow.php">BOOK NOW</a> <!-- Show booknow.php if logged in -->
+        <?php else: ?>
+            <a href="index.php">BOOK NOW</a> <!-- Show index.php if not logged in -->
+        <?php endif; ?>
+        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+            <a href="profile.php">PROFILE</a>
+        <?php endif; ?>
     </nav>
 </div>
 
@@ -215,16 +222,20 @@
         <div class="facility-item">
             <a href="m1.php">
             <img src="pics/m1.jpg" alt="Resort 1">
-            <div class="facility-caption"><a href="#">M1</a></div>
+            <div class="facility-caption"><a href="m1.php">M1</a></div>
             </a>
         </div>
         <div class="facility-item">
+            <a href="m2.php">
             <img src="pics/m2.jpg" alt="Resort 2">
-            <div class="facility-caption"><a href="#">M2</a></div>
+            <div class="facility-caption"><a href="m2.php">M2</a></div>
+            </a>
         </div>
         <div class="facility-item">
+            <a href="m3.php">
             <img src="pics/m3.jpg" alt="Resort 3">
-            <div class="facility-caption"><a href="#">M3</a></div>
+            <div class="facility-caption"><a href="m3.php">M3</a></div>
+            </a>
         </div>
     </div>
 

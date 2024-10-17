@@ -167,7 +167,7 @@
             margin-left: 20px;
             font-family: 'Playfair Display', serif;
             font-size: 18px;
-            font-weight: 600;
+            font-weight: bold;
             font-style: italic;
             align-items: right;
             display: inline-block;
@@ -196,10 +196,10 @@
 
     <!-- Navigation Menu -->
     <nav>
-        <a href="#">HOME</a>
+        <a href="landing.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
-        <a href="#">FACILITIES</a>
-        <a href="#">BOOK NOW</a>
+        <a href="facilities.php">FACILITIES</a>
+        <a href="index.php">BOOK NOW</a>
     </nav>
 </div>
 

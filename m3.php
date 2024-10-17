@@ -97,7 +97,6 @@
             max-width: 1160px;
             text-align: center;
             background: #ffffff;
-            color: black;
             text-align: left;
             box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
             z-index: 1;
@@ -261,17 +260,14 @@
     </nav>
 </div>
 
-
-
 <!-- Facilities Content -->
 <div class="facilities-content">
 
     <a href="facilities.php" class="top-left-button">Facilities</a>
-
-    <h1>M1</h1>
+    <h1>M3</h1>
 
     <!-- Rates Section-->
-    <p>Private Resort 1 Rates</p>
+    <p>Private Resort 3 Rates</p>
     <div class="rates-section">
         
         <table class="rates-table">

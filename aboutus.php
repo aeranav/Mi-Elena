@@ -90,6 +90,8 @@
             font-style: italic;
         }
 
+        
+
         /* Background color change on scroll for the whole strip */
         .scrolled {
             background-color: rgba(20, 93, 160, 0.4); /* #d0edf6 with 50% transparency */
@@ -199,7 +201,14 @@
         <a href="landing.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
         <a href="facilities.php">FACILITIES</a>
-        <a href="#">BOOK NOW</a>
+        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+            <a href="booknow.php">BOOK NOW</a> <!-- Show booknow.php if logged in -->
+        <?php else: ?>
+            <a href="index.php">BOOK NOW</a> <!-- Show index.php if not logged in -->
+        <?php endif; ?>
+        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
+            <a href="profile.php">PROFILE</a>
+        <?php endif; ?>
     </nav>
 </div>
 

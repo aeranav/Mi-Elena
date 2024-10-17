@@ -154,6 +154,7 @@
             color: #ffffff;
             text-decoration: none;
             margin-left: 20px;
+            margin-top: 0px;
             font-family: 'Playfair Display', serif;
             font-size: 18px;
             font-weight: bold;
@@ -187,10 +188,10 @@
 
     <!-- Navigation Menu -->
     <nav>
-        <a href="#">HOME</a>
+        <a href="landing.php">HOME</a>
         <a href="aboutus.php">ABOUT US</a>
-        <a href="#">FACILITIES</a>
-        <a href="#">BOOK NOW</a>
+        <a href="facilities.php">FACILITIES</a>
+        <a href="index.php">BOOK NOW</a>
     </nav>
 </div>
 
