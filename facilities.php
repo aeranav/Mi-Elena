@@ -5,10 +5,10 @@
 <head>
     <title>Facilities - Mi Elena Private Resort</title>
 
-    <link href="https://fonts.google.com/specimen/Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Fauna+One" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Libre+Caslon+Display?query=libre+ca" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Viaoda+Libre?query=libre" rel="stylesheet">
+    <!-- <link href="https://fonts.google.com/specimen/Playfair+Display" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.google.com/specimen/Fauna+One" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.google.com/specimen/Libre+Caslon+Display?query=libre+ca" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.google.com/specimen/Viaoda+Libre?query=libre" rel="stylesheet"> -->
 
 
     <style>

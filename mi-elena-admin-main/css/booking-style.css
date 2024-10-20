@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+}
+
+.navigation {
+    background-color: #145da0;
+    padding: 5px;
+    width: 20%;
+    height: 100%;
+}
+
+.logo {
+    height: 25%;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    min-height: 100%;
+    max-width: 100%;
+    object-fit: fit;
+}
+
+.menu-box {
+    padding: 0 5px;
+}
+
+.menu-option {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.menu-option li {
+    margin: 10px 0;
+}
+
+.menu-option li a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.menu-option li a:hover {
+    background-color: #0f4c81;
+}
+
+.main-content {
+    margin-left: 0;
+    width: 80%;
+}
+
+.header {
+    background-color: #145da0;
+    color: white;
+    display: flex;
+    border: #0f4c81 solid 1px;
+    margin-top: 0;
+    width: 100%;
+    height: 10%;
+    padding: 5px 5px 5px 0;
+}
+
+.page-title {
+    margin-left: 0;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.page-title h2 {
+    font-weight: lighter;
+}
+
+.btn-box {
+    margin-left: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.logout-btn {
+    background-color: inherit;
+    color: inherit;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.logout-btn:hover {
+    background-color: #0f4c81;
+}
+
+.content-box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.under-dev {
+    width: 577px;
+    height: 433px;
+}

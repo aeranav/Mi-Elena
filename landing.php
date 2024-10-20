@@ -5,8 +5,8 @@
 <head>
     <title>Welcome to Mi Elena</title>
 
-    <link href="https://fonts.google.com/specimen/Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Fauna+One" rel="stylesheet">
+    <!-- <link href="https://fonts.google.com/specimen/Playfair+Display" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.google.com/specimen/Fauna+One" rel="stylesheet"> -->
 
     <style>
         @font-face {

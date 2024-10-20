@@ -243,7 +243,7 @@
            value="<?php echo isset($_SESSION['form_data']['uname']) ? $_SESSION['form_data']['uname'] : ''; ?>">
 
     <label for="password">Password</label>
-    <input type="password" name="password" id="password">
+    <input type="password" name="password" id="password" minlength="8">
 
     <label for="confirm_password">Confirm Password</label>
     <input type="password" name="confirm_password" id="confirm_password">

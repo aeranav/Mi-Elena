@@ -95,30 +95,59 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
         }
 
         .profile-container {
-            margin-top: 150px;
-            padding: 20px;
-            width: 50%;
-            text-align: center;
-            background: #f9f9f9;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: -150px;
+            width: 100%;
+            max-width: 1200px;
+            text-align: left;
+            background: #ffffff;
+            margin-top: -150px;
+            font-family: 'Fauna One', serif;
+        }
+
+        .profile-content {
+            width: 80%; /* Content width limited to 80% of the profile-container */
+            margin: 0 auto; /* Center the content inside the profile container */
         }
 
         .profile-container h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 32px;
+            font-weight: 500;
+            font-size: 45px;
             color: #145da0;
+            margin-top: 60px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .profile-container input {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
+            margin-top: 15px;
             border: 1px solid #ccc;
             border-radius: 5px;
             font-size: 16px;
             background-color: #eaf5fa;
+            
+        }
+
+        .profile-container label{
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 16px;
+            text-align: left;
+            align-items: left;
+            color: #145da0;
+            font-weight: 600;
+        }
+
+        .button-containers {
+            display: flex;
+            justify-content: space-between;
+            width: 21%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            margin-top: 10px;
         }
 
         .logout-btn {
@@ -128,7 +157,10 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 14px;
+            align-items: center;
+            margin-bottom: 10px;
+            font-family: 'Fauna One', serif;
         }
 
         .logout-btn:hover {
@@ -194,6 +226,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
 
 
     <div class="profile-container">
+    <div class="profile-content">
     <h1>Hello, <?php echo htmlspecialchars($name); ?></h1>
 
     <form action="update_profile.php" method="post">
@@ -214,13 +247,16 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Enter new password if changing">
         
-        <!-- Update and Logout button -->
-        <button type="submit" class="logout-btn">Update</button>
-        </form>
-        <form action="logout.php" method="post">
-            <button type="submit" class="logout-btn">Log Out</button>
-        </form>
-    
+        <div class="button-containers">
+            <!-- Update and Logout button -->
+            <button type="submit" class="logout-btn">Update</button>
+            </form>
+            <form action="logout.php" method="post">
+                <button type="submit" class="logout-btn">Log Out</button>
+            </form>
+            
+        </div>
+    </div>
 
     </div>
 
